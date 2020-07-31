@@ -6,7 +6,7 @@ The model takes the overall buying price, maintenance cost, number of doors, cap
 
 Acceptability (cls column in car.data) is determined by "... a simple hierarchical decision model originally developed for the demonstration of DEX, M. Bohanec, V. Rajkovic: Expert system for decision making. (Sistemica 1(1), pp. 145-157, 1990.)."
 
-Dataset was collected from the UCI machine learning repository, an archive containing 557 datasets (https://archive.ics.uci.edu/ml/datasets/Car+Evaluation
+Dataset was collected from the UCI machine learning repository, an archive containing 557 datasets (https://archive.ics.uci.edu/ml/datasets/Car+Evaluation)
 
 KNN.py -> The main algorithm
 
