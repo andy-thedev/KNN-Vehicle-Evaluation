@@ -2,6 +2,7 @@
 
 A repository containing a vehicle evaluation model utilizing the K-Nearest Neighbors algorithm.
 
+Language: Python  
 Libraries: pandas, numpy, sklearn  
 Dataset: car.data from the UCI (University of California, Irvine) machine learning repository
 
@@ -16,7 +17,7 @@ Dataset was collected from the UCI machine learning repository, an archive conta
 ## /
 
 **KNN.py:**  
-The main algorithm (See section: "Design description")
+The main algorithm (See section: "Design description" below)
 
 **car.data:**  
 A csv table containing vehicle evaluation information, with rows being each vehicle design, and columns being features such as: overall buying price, maintenance cost, number of doors, etc.
