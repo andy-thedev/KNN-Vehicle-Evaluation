@@ -1,6 +1,11 @@
+# KNN-Vehicle-Evaluation
+
 A repository containing a vehicle evaluation model utilizing the K-Nearest Neighbors algorithm.
 
-Introduction:
+Libraries: pandas, numpy, sklearn  
+Dataset: car.data from the UCI (University of California, Irvine) machine learning repository
+
+## Intro
 
 The model takes the overall buying price, maintenance cost, number of doors, capacity of number of persons, size of the luggage boot, and safety level of a specific vehicle, and attempts to predict the vehicle's "acceptability"
 
@@ -8,11 +13,15 @@ Acceptability (cls column in car.data) is determined by "... a simple hierarchic
 
 Dataset was collected from the UCI machine learning repository, an archive containing 557 datasets (https://archive.ics.uci.edu/ml/datasets/Car+Evaluation)
 
-KNN.py -> The main algorithm
+## /
 
-car.data -> A csv table containing vehicle evaluation information, with rows being each vehicle design, and columns being features such as: overall buying price, maintenance cost, number of doors, etc.
+**KNN.py:**  
+The main algorithm (See section: "Design description")
 
-Design description:
+**car.data:**  
+A csv table containing vehicle evaluation information, with rows being each vehicle design, and columns being features such as: overall buying price, maintenance cost, number of doors, etc.
+
+## Design description
 
 1) Retrieves dataset of vehicle designs, and transforms columns with string classification values into integers utilizing sklearn's preprocessing library
 
@@ -24,8 +33,6 @@ Design description:
 
 The model does not need to be saved, as due to the characteristics of KNN models, every time it needs to make a prediction, a new training point is added, so it must traverse and calculate all distances between each point again
 
-Libraries utilized: pandas, numpy, sklearn
-
-Dataset utilized: car.data from the UCI (University of California, Irvine) machine learning repository
+## Outcome
 
 Test accuracy achieved: 0.9422
