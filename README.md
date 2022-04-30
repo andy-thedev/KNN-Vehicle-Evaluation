@@ -1,5 +1,7 @@
 # KNN-Vehicle-Evaluation
 
+## Credit: https://github.com/techwithtim
+
 A repository containing a vehicle evaluation model utilizing the K-Nearest Neighbors algorithm.
 
 Language: Python  
